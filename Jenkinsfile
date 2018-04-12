@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Maven Version') {
       steps {
-        sh 'man -v'
+        sh 'mvn -v'
       }
     }
   }
